@@ -12,7 +12,6 @@
 			"installSystemRequirements": true
 		}
 	},
-   	"postCreateCommand": "bash .devcontainer/ss3-exe-download.sh",
 	"customizations": {
 	  "vscode": {
 		  "settings": {
@@ -32,7 +31,7 @@
 			"mathematic.vscode-pdf"
 			]
 	  }
-	}
+	},
 	  "forwardPorts": [8787],
 	  "portsAttributes": {
 		"8787": {
